@@ -1,0 +1,46 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+}
+
+.card-container {
+  width: 90%;
+  max-width: 330px;
+  height: 480px;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #CD0000;
+  margin: 50px auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body {
+  text-align: center;
+  font-size: 140px;
+  font-weight: bold;
+}
+
+.card-top, .card-footer {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  font-size: 65px;
+  padding: 0 12px 0 12px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-footer > .card-icon {
+  transform: rotate(180deg);
+}
